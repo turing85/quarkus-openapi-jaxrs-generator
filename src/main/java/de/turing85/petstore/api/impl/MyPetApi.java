@@ -1,4 +1,4 @@
-package de.turing85.api.impl;
+package de.turing85.petstore.api.impl;
 
 import java.io.InputStream;
 import java.util.List;
@@ -10,7 +10,7 @@ import de.turing85.petstore.model.Pet;
 
 public class MyPetApi implements PetApi {
   @Override
-  public Response addPet(Pet body) {
+  public Response addPet(Pet pet) {
     return null;
   }
 
@@ -35,7 +35,7 @@ public class MyPetApi implements PetApi {
   }
 
   @Override
-  public Response updatePet(Pet body) {
+  public Response updatePet(Pet pet) {
     return null;
   }
 
