@@ -1,0 +1,3 @@
+= quarkus-openapi-jaxrs-generator
+
+Sample project showing how `org.openapitools:openapi-generator-maven-plugin` can be used to generate interface specifications for endpoints and model classes from an openapi specification. This is semantically equivalent to the link:https://openapi-generator.tech/docs/generators/spring/[`spring` generator]'s `apiFirst` setting.
